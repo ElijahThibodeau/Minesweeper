@@ -1,0 +1,20 @@
+class minespot:
+  def __init__(self):
+      self.isMine = False
+      self.isFlagged = False
+      self.numAdjMines = 0
+   def isMine(self):
+       return self.isMine
+  def getAdjMines(self):
+      return self.numAdjMines
+  def getIsFlagged(self):
+      return self.isFlagged
+  def setMineStatus(self):
+      self.isMine = True
+  def flag(self):
+      self.isFlagged = True
+  def setAdjMines(self, x):
+      self.numAdjMines = x
+
+
+
