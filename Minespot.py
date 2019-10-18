@@ -26,5 +26,5 @@ class minespot:
     def setNumAdjMines(self,x):
         self.numAdjMines = x
 
-    def getNumAdjMines(self):
+    def getAdjMines(self):
         return self.numAdjMines
